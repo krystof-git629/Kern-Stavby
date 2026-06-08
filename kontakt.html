@@ -69,28 +69,66 @@ Telefon: +420 553 628 888
 </p>
 
 <p>
-E-mail: info@kernstavby.cz
-</p>
+E-mail: martin.kern@post.cz
+<h2 style="margin-top:50px;">Napište nám</h2>
+
+<form action="https://formsubmit.co/martin.kern@post.cz" method="POST">
+
+    <input
+        type="text"
+        name="Jmeno"
+        placeholder="Vaše jméno"
+        required
+        style="width:100%;padding:15px;margin-bottom:15px;">
+
+    <input
+        type="email"
+        name="Email"
+        placeholder="Váš e-mail"
+        required
+        style="width:100%;padding:15px;margin-bottom:15px;">
+
+    <input
+        type="tel"
+        name="Telefon"
+        placeholder="Telefon"
+        style="width:100%;padding:15px;margin-bottom:15px;">
+
+    <textarea
+        name="Zprava"
+        placeholder="Vaše zpráva"
+        required
+        style="width:100%;height:180px;padding:15px;margin-bottom:15px;"></textarea>
+
+    <input
+        type="hidden"
+        name="_subject"
+        value="Nová poptávka z webu KERN">
+
+    <input
+        type="hidden"
+        name="_captcha"
+        value="false">
+
+    <input
+        type="text"
+        name="_honey"
+        style="display:none">
+
+    <button
+        type="submit"
+        class="btn-primary">
+
+        Odeslat poptávku
+
+    </button>
+
+</form>
 
 <br><br>
 
-value="Nová poptávka z webu KERN">
 
-<input
-type="hidden"
-name="_captcha"
-value="false">
 
-<input
-type="text"
-name="_honey"
-style="display:none">
-
-<button
-type="submit"
-class="btn-primary">
-
-Odeslat poptávku
 
 </button>
 
