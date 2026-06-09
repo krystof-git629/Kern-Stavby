@@ -62,9 +62,10 @@ color:#d69300;
 height:100vh;
 background:
 linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-url('images/hero.jpg');
-background-size:cover;
-background-position:center;
+url('images/cernobilelogofirmy.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
 display:flex;
 align-items:center;
 justify-content:center;
